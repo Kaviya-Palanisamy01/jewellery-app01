@@ -1,0 +1,204 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Diamond Solitaire Ring",
+      "description": "Elegant diamond solitaire ring in 18K gold setting",
+      "price": 25000,
+      "quantity": 10,
+      "image": "/images/rings/diamond-solitaire.jpg",
+      "category": "Rings",
+      "subcategory": "Diamond"
+    },
+    {
+      "id": 2,
+      "name": "Pearl Necklace",
+      "description": "Classic freshwater pearl necklace with gold clasp",
+      "price": 12000,
+      "quantity": 8,
+      "image": "/images/necklaces/pearl-necklace.jpg",
+      "category": "Necklaces",
+      "subcategory": "Pearl"
+    },
+    {
+      "id": 3,
+      "name": "Gold Hoop Earrings",
+      "description": "Timeless 22K gold hoop earrings for everyday wear",
+      "price": 8000,
+      "quantity": 12,
+      "image": "/images/earrings/gold-hoops.jpg",
+      "category": "Earrings",
+      "subcategory": "Gold"
+    },
+    {
+      "id": 4,
+      "name": "Emerald Pendant",
+      "description": "Stunning emerald pendant with gold chain",
+      "price": 18000,
+      "quantity": 6,
+      "image": "/images/necklaces/emerald-pendant.jpg",
+      "category": "Necklaces",
+      "subcategory": "Emerald"
+    },
+    {
+      "id": 5,
+      "name": "Sapphire Stud Earrings",
+      "description": "Blue sapphire stud earrings in white gold setting",
+      "price": 9500,
+      "quantity": 15,
+      "image": "/images/earrings/sapphire-studs.jpg",
+      "category": "Earrings",
+      "subcategory": "Sapphire"
+    },
+    {
+      "id": 6,
+      "name": "Ruby Bracelet",
+      "description": "Delicate ruby bracelet with adjustable clasp",
+      "price": 15000,
+      "quantity": 10,
+      "image": "/images/bracelets/ruby-bracelet.jpg",
+      "category": "Bracelets",
+      "subcategory": "Ruby"
+    },
+    {
+      "id": 7,
+      "name": "Platinum Wedding Band",
+      "description": "Classic platinum wedding band for all occasions",
+      "price": 20000,
+      "quantity": 8,
+      "image": "/images/rings/platinum-band.jpg",
+      "category": "Rings",
+      "subcategory": "Platinum"
+    },
+    {
+      "id": 8,
+      "name": "Opal Drop Earrings",
+      "description": "Opal drop earrings with rose gold setting",
+      "price": 11000,
+      "quantity": 9,
+      "image": "/images/earrings/opal-drops.jpg",
+      "category": "Earrings",
+      "subcategory": "Opal"
+    },
+    {
+      "id": 9,
+      "name": "Silver Charm Bracelet",
+      "description": "Sterling silver charm bracelet with heart pendant",
+      "price": 6000,
+      "quantity": 20,
+      "image": "/images/bracelets/silver-charm.jpg",
+      "category": "Bracelets",
+      "subcategory": "Silver"
+    },
+    {
+      "id": 10,
+      "name": "Rose Gold Ring",
+      "description": "Elegant rose gold ring with diamond accent",
+      "price": 22000,
+      "quantity": 8,
+      "image": "/images/rings/rosegold-ring.jpg",
+      "category": "Rings",
+      "subcategory": "Rose Gold"
+    },
+    {
+      "id": 11,
+      "name": "Crystal Necklace",
+      "description": "Beautiful crystal necklace with silver chain",
+      "price": 7500,
+      "quantity": 12,
+      "image": "/images/necklaces/crystal-necklace.jpg",
+      "category": "Necklaces",
+      "subcategory": "Crystal"
+    },
+    {
+      "id": 12,
+      "name": "Silver Hoop Earrings",
+      "description": "Classic silver hoop earrings for daily wear",
+      "price": 4500,
+      "quantity": 15,
+      "image": "/images/earrings/silver-hoops.jpg",
+      "category": "Earrings",
+      "subcategory": "Silver"
+    },
+    {
+      "id": 13,
+      "name": "Gold Chain Necklace",
+      "description": "Premium 18K gold chain necklace",
+      "price": 35000,
+      "quantity": 6,
+      "image": "/images/necklaces/gold-chain.jpg",
+      "category": "Necklaces",
+      "subcategory": "Gold"
+    },
+    {
+      "id": 14,
+      "name": "Diamond Stud Earrings",
+      "description": "Classic diamond stud earrings in white gold",
+      "price": 28000,
+      "quantity": 8,
+      "image": "/images/earrings/diamond-studs.jpg",
+      "category": "Earrings",
+      "subcategory": "Diamond"
+    },
+    {
+      "id": 15,
+      "name": "Gold Bangle",
+      "description": "Traditional gold bangle with intricate design",
+      "price": 25000,
+      "quantity": 10,
+      "image": "/images/bracelets/gold-bangle.jpg",
+      "category": "Bracelets",
+      "subcategory": "Gold"
+    },
+    {
+      "id": 16,
+      "name": "Silver Ring",
+      "description": "Elegant silver ring with gemstone detail",
+      "price": 8000,
+      "quantity": 12,
+      "image": "/images/rings/silver-ring.jpg",
+      "category": "Rings",
+      "subcategory": "Silver"
+    },
+    {
+      "id": 17,
+      "name": "Pearl Earrings",
+      "description": "Classic pearl stud earrings in white gold",
+      "price": 9000,
+      "quantity": 10,
+      "image": "/images/earrings/pearl-earrings.jpg",
+      "category": "Earrings",
+      "subcategory": "Pearl"
+    },
+    {
+      "id": 18,
+      "name": "Gold Pendant",
+      "description": "Elegant gold pendant with diamond detail",
+      "price": 18000,
+      "quantity": 7,
+      "image": "/images/necklaces/gold-pendant.jpg",
+      "category": "Necklaces",
+      "subcategory": "Gold"
+    },
+    {
+      "id": 19,
+      "name": "Silver Bracelet",
+      "description": "Delicate silver bracelet with charm detail",
+      "price": 5500,
+      "quantity": 15,
+      "image": "/images/bracelets/silver-bracelet.jpg",
+      "category": "Bracelets",
+      "subcategory": "Silver"
+    },
+    {
+      "id": 20,
+      "name": "Diamond Ring",
+      "description": "Stunning diamond ring in platinum setting",
+      "price": 45000,
+      "quantity": 5,
+      "image": "/images/rings/diamond-ring.jpg",
+      "category": "Rings",
+      "subcategory": "Diamond"
+    }
+  ]
+}

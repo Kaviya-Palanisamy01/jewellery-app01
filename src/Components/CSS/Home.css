@@ -1,0 +1,198 @@
+.home-page {
+  background: #e1bee7;
+  min-height: 100vh;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  padding-top: 24px;
+}
+.home-menu {
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(106,17,203,0.06);
+  padding: 0 0 0 0;
+  margin-bottom: 32px;
+}
+.home-menu ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.home-menu li {
+  padding: 18px 0 16px 0;
+  font-size: 1.08rem;
+  font-weight: bold;
+  color: #6a1b9a;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  position: relative;
+  transition: color 0.2s;
+}
+.home-menu li.active,
+.home-menu li:hover {
+  color: #9c27b0;
+}
+.dropdown {
+  user-select: none;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  background: #fff;
+  min-width: 200px;
+  box-shadow: 0 2px 8px rgba(106,17,203,0.12);
+  border-radius: 0 0 8px 8px;
+  z-index: 1001;
+  margin-top: 2px;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown-content li {
+  padding: 12px 24px;
+  color: #6a1b9a;
+  font-weight: 500;
+  text-transform: none;
+  letter-spacing: 0;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.dropdown-content li:hover {
+  background: #f3e5f5;
+}
+.hero-section {
+  text-align: center;
+  padding: 48px 0 32px 0;
+  background: linear-gradient(90deg, #9c27b0 0%, #6a1b9a 100%);
+}
+.hero-section h1 {
+  font-size: 2.5rem;
+  color: #6a1b9a;
+  margin-bottom: 12px;
+}
+.hero-section p {
+  font-size: 1.2rem;
+  color: #fff;
+}
+.cake-grid-section {
+  padding: 32px 0;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.cake-grid-section h2 {
+  text-align: center;
+  color: #9c27b0;
+  margin-bottom: 24px;
+}
+.cake-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+}
+.cake-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(106,17,203,0.08);
+  padding: 16px 0;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #6a1b9a;
+  transition: box-shadow 0.2s, transform 0.2s;
+  max-width: 260px;
+  margin: 0 auto;
+}
+.cake-card:hover {
+  box-shadow: 0 6px 18px rgba(106,17,203,0.16);
+  transform: translateY(-4px) scale(1.03);
+}
+.locations-section {
+  background: #f3e5f5;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(106,17,203,0.08);
+  margin: 32px auto;
+  max-width: 600px;
+  padding: 24px 32px;
+  text-align: center;
+}
+.locations-section h2 {
+  color: #6a1b9a;
+  margin-bottom: 16px;
+  font-size: 1.4rem;
+}
+.locations-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+}
+.locations-list li {
+  background: #9c27b0;
+  color: #fff;
+  padding: 8px 18px;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 1rem;
+  box-shadow: 0 1px 4px rgba(106,17,203,0.07);
+  transition: background 0.2s;
+}
+.locations-list li:hover {
+  background: #6a1b9a;
+}
+.cake-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  margin-top: 10px;
+}
+.cake-qty-input {
+  width: 48px;
+  margin-left: 6px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  border: 1px solid #9c27b0;
+  font-size: 1rem;
+  text-align: center;
+}
+.order-btn {
+  background: linear-gradient(90deg, #6a1b9a 0%, #9c27b0 100%);
+  color: #ffd700;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 1rem;
+  cursor: pointer;
+  margin: 2px 0;
+  transition: background 0.2s;
+}
+.order-btn:hover, .order-btn.place-order:hover {
+  background: linear-gradient(90deg, #9c27b0 0%, #6a1b9a 100%);
+}
+.order-btn.place-order {
+  background: linear-gradient(90deg, #ffd700 0%, #9c27b0 100%);
+  color: #6a1b9a;
+  margin-top: 2px;
+}
+.cake-price {
+  color: #6a1b9a;
+  font-weight: bold;
+  margin: 8px 0 0 0;
+  font-size: 1.1rem;
+}
+.cart-image {
+  width: 70px;
+  height: 56px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 8px;
+} 

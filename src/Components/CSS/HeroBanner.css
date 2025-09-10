@@ -1,0 +1,203 @@
+/* HeroBanner.css - GIVA-style Hero Banner */
+
+.hero-banner {
+  background: linear-gradient(135deg, #ff69b4, #ff1493, #ff6b9d);
+  padding: 60px 20px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+
+/* Sale Badge */
+.sale-badge {
+  background: #ff4757;
+  color: white;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 8px 25px rgba(255, 71, 87, 0.3);
+  transform: rotate(-5deg);
+  min-width: 120px;
+}
+
+.badge-top {
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-bottom: 5px;
+}
+
+.badge-main {
+  font-size: 28px;
+  font-weight: bold;
+  font-family: 'Brush Script MT', cursive;
+  margin: 5px 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.badge-bottom {
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+/* Center Jewelry Display */
+.hero-center {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.jewelry-display {
+  position: relative;
+  z-index: 3;
+}
+
+.hero-jewelry {
+  max-width: 300px;
+  height: auto;
+  filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.2));
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+/* Offer Cards */
+.hero-offers {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.offer-card {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  min-width: 200px;
+  backdrop-filter: blur(10px);
+}
+
+.offer-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 5px;
+  letter-spacing: 1px;
+}
+
+.offer-subtitle {
+  font-size: 12px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.offer-discount {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+.flat-text {
+  font-size: 14px;
+  color: #333;
+  font-weight: 600;
+}
+
+.percentage {
+  font-size: 36px;
+  font-weight: bold;
+  color: #ff4757;
+  line-height: 1;
+}
+
+.off-text {
+  font-size: 14px;
+  color: #333;
+  font-weight: 600;
+}
+
+.offer-condition {
+  font-size: 11px;
+  color: #666;
+  margin-bottom: 8px;
+}
+
+.offer-code {
+  background: #333;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  display: inline-block;
+}
+
+/* Background decorative elements */
+.hero-banner::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.1) 0%, transparent 70%);
+  animation: rotate 20s linear infinite;
+  z-index: 1;
+}
+
+@keyframes rotate {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hero-content {
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+  }
+  
+  .hero-offers {
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .offer-card {
+    min-width: 160px;
+  }
+  
+  .hero-jewelry {
+    max-width: 250px;
+  }
+  
+  .sale-badge {
+    transform: rotate(0deg);
+    margin-bottom: 20px;
+  }
+}

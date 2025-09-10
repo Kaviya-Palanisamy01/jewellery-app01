@@ -1,0 +1,59 @@
+.about-container {
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 40px 32px;
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 24px;
+  box-shadow: 0 8px 32px rgba(31, 38, 135, 0.15);
+  font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+  color: #2d2d2d;
+  text-align: center;
+  backdrop-filter: blur(4px);
+  border: 1px solid rgba(255,255,255,0.3);
+}
+
+.about-container h1 {
+  font-size: 2.5rem;
+  margin-bottom: 18px;
+  letter-spacing: 2px;
+  color: #7b3fe4;
+  font-weight: 700;
+  text-shadow: 0 2px 8px rgba(123, 63, 228, 0.08);
+}
+
+.about-container p {
+  font-size: 1.18rem;
+  line-height: 1.7;
+  color: #444;
+  margin-bottom: 0;
+}
+
+.fade-in {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 1.2s cubic-bezier(0.4,0,0.2,1), transform 1.2s cubic-bezier(0.4,0,0.2,1);
+}
+
+.about-container {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 1.2s cubic-bezier(0.4,0,0.2,1), transform 1.2s cubic-bezier(0.4,0,0.2,1);
+}
+
+.about-container.fade-in {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (max-width: 700px) {
+  .about-container {
+    padding: 24px 8px;
+    max-width: 95vw;
+  }
+  .about-container h1 {
+    font-size: 2rem;
+  }
+  .about-container p {
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,29 @@
+.footbar{
+    position: fixed;
+    width: 100%;
+    bottom:0;
+    background: linear-gradient(90deg, #6a1b9a 0%, #9c27b0 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    box-shadow: 0 -2px 8px rgba(106,17,203,0.08);
+}
+.foot-items{
+    display:flex;
+    padding-right:100px;
+    gap:28px;
+}
+.foot-items li {
+    color: #fff;
+    list-style: none;
+    font-family: 'Segoe UI', 'Arial', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 500;
+    transition: color 0.2s, transform 0.2s;
+}
+.foot-items li:hover {
+    color: #ffd700;
+    transform: scale(1.08);
+    cursor: pointer;
+}
